@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/style.css">
+        <link href="src/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css">
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/x-icon" href="/assets/webify_logo_transparent.png">
+        <title>Webify</title>
+
+    </head>
+    <body>
+
+      <nav class="flex justify-between items-center px-8 lg:px-16 py-4 bg-white shadow-lg fixed z-50 min-w-full">
+        <div class="flex justify-center items-center gap-5">
+            <img src="assets/webify_logo_transparent.png" alt="" width="50">
+            <h2 class="font-monsterrat bg-gradient-to-r from-blue-500 via-cyan-700 to-cyan-500 bg-clip-text text-transparent font-semibold text-xl drop-shadow-lg shadow-white">Webify</h2>
+        </div>
+
+        <div class="md:flex items-center gap-4 text-base hidden md:scale-90 lg:scale-100">
+            <ul class="flex justify-center items-center gap-4">
+                <li class="hover:text-gray-700 hover:underline hover:font-medium transition-all duration-150 cursor-pointer">Home</li>
+                <li class="hover:text-gray-700 hover:underline hover:font-medium transition-all duration-150 cursor-pointer">Services</li>
+                <li class="hover:text-gray-700 hover:underline hover:font-medium transition-all duration-150 cursor-pointer">Courses</li>
+                <li class="hover:text-gray-700 hover:underline hover:font-medium transition-all duration-150 cursor-pointer">About</li>
+                <li class="hover:text-gray-700 hover:underline hover:font-medium transition-all duration-150 cursor-pointer">Contact</li>
+            </ul>
+            <span class="cursor-default">||</span>
+            <button class="bg-sky-600 text-white border px-3 py-2 hover:text-sky-600 hover:bg-white hover:border-sky-600 transition-all duration-150">Get Started</button>
+        </div>
+      </nav>
+      
+      <main class="pt-20 min-w-full">
+        <header class="flex justify-center items-center min-h-[85dvh] max-w-screen-xl mx-auto">
+            <div class="relative flex flex-col justify-center items-center text-center space-y-7">
+                <h2 class="text-6xl max-w-3xl leading-snug">Empower your Digital <span class="text-7xl">Presence with <span class="bg-gradient-to-r from-blue-500 via-cyan-700 to-cyan-500 bg-clip-text text-transparent font-medium">Webify</span></span></h2>
+                <h4 class="max-w-5xl text-slate-600">Webify offers custom web services to bring your ideas to life, free courses to help you master web development skills to increase your online presence. Your journey to a powerful digital presence starts here!</h4>
+                <div class="flex gap-3">
+                    <button class="bg-white text-sky-600 border border-sky-600 px-3 py-2 hover:text-white hover:bg-sky-600 hover:border-white transition-all duration-150">Get Started</button>
+                    <button class="bg-sky-600 text-white border px-3 py-2 hover:bg-sky-800 hover:border-sky-800 transition-all duration-150">Explore Courses</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-screen-xl mx-auto">
+                <h4 class="text-4xl font-montserrat mb-10 font-light">Our Services</h4>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-20">
+                    <div class="flex flex-col justify-center items-center bg-white text-center py-12 px-7 relative border-l-4 border-sky-600 shadow-lg">
+                        <i class="ri-layout-5-line text-8xl mb-7 text-sky-600"></i>
+                        <h5 class="text-2xl text-gray-800 font-semibold mb-2">Web design</h5>
+                        <p class="text-sm max-w-sm text-slate-700 mb-8">Webify offers custom website design, development, optimization, and maintenance to create, enhance, and sustain your online presence.</p>
+                        <button class="bg-sky-600 text-white text-sm border px-8 py-2 hover:bg-white hover:text-sky-600 hover:border-sky-600 transition-all duration-150">Check Pricing</button>
+    
+                        <div class="absolute bg-sky-600 w-16 h-6 top-7 right-0"></div>
+                    </div>
+    
+                    <div class="flex flex-col justify-center items-center bg-white text-center py-12 px-7 relative border-l-4 border-cyan-700 shadow-lg">
+                        <i class="ri-graduation-cap-line text-8xl mb-7 text-cyan-700"></i>
+                        <h5 class="text-2xl text-gray-800 font-semibold mb-2">Free Courses</h5>
+                        <p class="text-sm max-w-sm text-slate-700 mb-8">Webify offers free courses, covering basic topics like HTML, CSS, and JavaScript, helping you build valuable skills to advance your digital journey.</p>
+                        <button class="bg-cyan-700 text-white text-sm border px-8 py-2 hover:bg-white hover:text-cyan-700 hover:border-cyan-700 transition-all duration-150">Explore Courses</button>
+    
+                        <div class="absolute bg-cyan-700 w-16 h-6 top-7 right-0"></div>
+                    </div>
+    
+                    <div class="flex flex-col justify-center items-center bg-white text-center py-12 px-7 relative border-l-4 border-cyan-500 shadow-lg">
+                        <i class="ri-stack-line text-8xl mb-7 text-cyan-700 "></i>
+                        <h5 class="text-2xl text-gray-800 font-semibold mb-2">Subdomain</h5>
+                        <p class="text-sm max-w-sm text-slate-700 mb-8">Webify offers customizable subdomains with tailored web design, giving you a unique web address that enhances your online presence and streamlines your services.</p>
+                        <button class="bg-cyan-500 text-white text-sm border px-8 py-2 hover:bg-white hover:text-cyan-500 hover:border-cyan-500 transition-all duration-150">Check Pricing</button>
+    
+                        <div class="absolute bg-cyan-500 w-16 h-6 top-7 right-0"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="py-32 max-w-screen-xl mx-auto">
+           <div class="grid grid-cols-1 md:grid-cols-2 min-h-80">
+                <div class="flex items-center">
+                    <div class="text-sm space-y-5 text-gray-600">
+                        <h4 class="text-5xl text-gray-800 font-montserrat font-medium mb-7">About <span class="bg-gradient-to-r from-blue-500 via-cyan-700 to-cyan-500 bg-clip-text text-transparent font-medium">Webify</span></h4>
+                        <p>Webify was created out of necessity by a team of high school students eager to bridge the gap between learning and doing in web development. Though inexperienced, we’ve built this platform to offer custom web services, free courses, and hosting options to make web creation accessible for everyone.</p>
+                        <p>What started as a practical project for learning might just grow into something bigger. For now, Webify is both a tool for others to build their digital presence and a journey of growth for us as creators.</p>
+
+                        <div class="flex items-center gap-10 pt-5">
+                            <div class="flex items-center gap-7 px-10 py-3 rounded-lg border-l-2 border-sky-700">
+                                <i class="fa-solid fa-users text-3xl text-sky-700"></i>
+                                <div>
+                                    <label class="text-3xl text-sky-600">4</label>
+                                    <p class="text-slate-600">Workers</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center gap-7 px-10 py-3 rounded-lg border-l-2 border-sky-700">
+                                <i class="fa-solid fa-hourglass-half text-3xl text-sky-700"></i>
+                                <div>
+                                    <label class="text-3xl text-sky-600">1 Year</label>
+                                    <p class="text-slate-600">of Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="py-16 bg-gray-50"> 
+            <div class="max-w-screen-xl mx-auto">
+
+                <div class="grid grid-cols-3 shadow-xl">
+                    <div class="bg-white col-span-2 flex justify-center items-center py-16">
+                        <div class="w-3/4 space-y-5">
+                            <div class="flex justify-between items-center mb-10">
+                                <h4 class="text-2xl font-semibold">Get In Touch</h4>
+                                <i class="fa-regular fa-paper-plane text-2xl text-sky-700"></i>
+                            </div>
+                            <form action="#" class="grid grid-cols-2 gap-x-5 gap-y-7">
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm text-gray-700">Your Name</label>
+                                    <input type="text" class="border-b-2 border-slate-300 rounded-md focus:outline-none focus:ring-0 px-2.5 py-2 text-gray-800 text-sm">
+                                </div>
+
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm text-gray-700">Email Address</label>
+                                    <input type="email" class="border-b-2 border-slate-300 rounded-md focus:outline-none focus:ring-0 px-2.5 py-2 text-gray-800 text-sm">
+                                </div>
+
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm text-gray-700">Phone Number</label>
+                                    <input type="number" class="border-b-2 border-slate-300 rounded-md focus:outline-none focus:ring-0 px-2.5 py-2 text-gray-800 text-sm">
+                                </div>
+
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-sm text-gray-700">Company</label>
+                                    <input type="text" class="border-b-2 border-slate-300 rounded-md focus:outline-none focus:ring-0 px-2.5 py-2 text-gray-800 text-sm">
+                                </div>
+
+                                <div class="flex flex-col gap-1 col-span-full">
+                                    <label class="text-sm text-gray-700">Description</label>
+                                    <textarea rows="5" class="border-b-2 border-slate-300 rounded-md focus:outline-none focus:ring-0 px-2.5 py-2 text-gray-800 text-sm"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bg-sky-800 flex justify-center items-center py-16">
+                        <div class="w-4/6 text-white space-y-10">
+                            <h4 class="text-white text-xl font-semibold">Contact Information</h4>
+                            <ul class="space-y-10">
+                                <li class="flex items-center gap-4">
+                                    <i class="fa-solid fa-location-dot text-cyan-500 shadow-sm text-2xl"></i>
+                                    <p class="text-sm">Sindang Barang, Jln. Poras No.7</p>
+                                </li>
+                                
+                                <li class="flex items-center gap-4">
+                                    <i class="fa-solid fa-phone text-cyan-500 shadow-sm text-2xl"></i>
+                                    <p class="text-sm">(888) 9000-6969-3737</p>
+                                </li>
+                                
+                                <li class="flex items-center gap-4">
+                                    <i class="fa-solid fa-envelope-open-text text-cyan-500 shadow-sm text-2xl"></i>
+                                    <p class="text-sm">webify.bisnis@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-sky-800 py-16">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="flex flex-col text-center items-center space-y-7">
+                    <h4 class="text-white text-3xl">Webify</h4>
+                    <p class="text-slate-100 max-w-screen-lg">Webify – Your go-to platform for custom web services, free courses, and hosting solutions. Designed by learners, for creators. Empower your digital journey with us today!</p>
+                    <ul class="flex text-white gap-7">
+                        <li class=""><i class="fa-brands fa-instagram text-2xl hover:text-sky-300 cursor-pointer transition-all duration-150"></i></li>
+                        <li><i class="fa-brands fa-github text-2xl hover:text-sky-300 cursor-pointer transition-all duration-150"></i></li>
+                        <li><i class="fa-brands fa-pinterest-p text-2xl hover:text-sky-300 cursor-pointer transition-all duration-150"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="text-center bg-white py-3">
+            <h4 class="text-slate-600">Copyright 2024. Webify</h4>
+        </div>
+      </main>
+    </body>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/fb890e3537.js" crossorigin="anonymous"></script>
+</html>
